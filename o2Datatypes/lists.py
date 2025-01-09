@@ -15,6 +15,6 @@ for tea in tea_varities:
     print(tea) #Output: black green masala herbal
 if "oolong" in tea_varities:
     print("oolong is in the list") #Output: nothing will be printed
-tea_varities.append("oolong")
+tea_varities.append("oolong") # add "oolong" at the last
 if "oolong" in tea_varities:
     print("oolong is in the list") #Output: oolong is in the list
