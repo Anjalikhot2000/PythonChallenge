@@ -18,3 +18,16 @@ if "oolong" in tea_varities:
 tea_varities.append("oolong") # add "oolong" at the last
 if "oolong" in tea_varities:
     print("oolong is in the list") #Output: oolong is in the list
+
+
+#copy()
+t_varities_copy=tea_varities.copy()
+t_varities_copy.append("Lemon")
+print(t_varities_copy)
+print(tea_varities)
+
+#List comprehension
+sq_nums=[x**2 for x in range(5)]
+print(sq_nums)
+
+
